@@ -8,5 +8,11 @@ public class Calculator
         double secondValue = Double.parseDouble(args[1]);
 
     }
+
+	double additionMethod(double a,double b)
+	{
+		double result = a+b;
+		return result;
+	}
 }
 
